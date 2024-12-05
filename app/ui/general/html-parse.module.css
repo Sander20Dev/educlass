@@ -1,0 +1,63 @@
+.html-parser h1 {
+  @apply text-3xl font-bold;
+}
+
+.html-parser h2 {
+  @apply text-2xl font-bold;
+}
+
+.html-parser h3 {
+  @apply text-xl font-bold;
+}
+
+.html-parser h4 {
+  @apply text-lg font-bold;
+}
+
+.html-parser h5 {
+  @apply text-base font-bold;
+}
+
+.html-parser h6 {
+  @apply text-sm font-bold;
+}
+
+.html-parser p {
+  @apply text-base;
+}
+
+.html-parser a {
+  @apply text-blue-700 underline hover:text-blue-800 hover:no-underline;
+}
+
+.html-parser strong {
+  @apply font-bold;
+}
+
+.html-parser em {
+  @apply italic;
+}
+
+.html-parser ul {
+  @apply list-disc;
+}
+
+.html-parser ol {
+  @apply list-decimal;
+}
+
+.html-parser li {
+  @apply ml-4;
+}
+
+.html-parser blockquote {
+  @apply border-l-4 border-gray-200 pl-4 text-base;
+}
+
+.html-parser code {
+  @apply bg-gray-100 text-gray-800 rounded-md px-1 py-0.5;
+}
+
+.html-parser pre {
+  @apply bg-gray-100 text-gray-800 rounded-md px-4 py-2;
+}
